@@ -3,7 +3,7 @@
 # Comments are provided throughout this file to help you get started.
 # If you need more help, visit the Dockerfile reference guide at
 # https://docs.docker.com/engine/reference/builder/
-FROM node:alpine3.19
+FROM node:18.19.1-alpine
 # Use production node environment by default.
 ENV NODE_ENV production
 
